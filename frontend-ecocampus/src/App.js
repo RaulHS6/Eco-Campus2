@@ -8,7 +8,7 @@ import GuiaReciclaje from "./pages/GuiaReciclaje";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Eco-Campus2">
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/calculadora" element={<Calculadora />} />
