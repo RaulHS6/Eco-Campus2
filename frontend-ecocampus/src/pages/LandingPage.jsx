@@ -47,7 +47,7 @@ const LandingPage = () => {
 
           {/* Logos a la izquierda */}
           <div className="flex items-center space-x-4 mb-6 md:mb-0">
-            <img src="/Logos/UdC_logo.png" alt="Universidad de Colima" className="h-14" />
+            <img src={process.env.PUBLIC_URL + "/Logos/UdC_logo.png"} alt="Universidad de Colima" className="h-14" />
           </div>
 
           {/* Redes sociales al centro (sin correo) */}
@@ -78,7 +78,7 @@ const LandingPage = () => {
           {/* Imagen y dirección a la derecha */}
           <div className="text-right">
             <img
-              src="/Logos/eslogan.png"
+              src={process.env.PUBLIC_URL + "/Logos/eslogan.png"}
               alt="Pertenencia que transforma"
               className="h-10 mx-auto md:mx-0 mb-2"
             />
